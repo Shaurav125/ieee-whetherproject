@@ -1,0 +1,68 @@
+
+body{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+   background-size:100rem;
+}
+
+#box1{
+    margin-top:6rem !important; 
+   height:600px;
+   width:500px; padding:3px!important;
+ 
+background: rgba(255, 255, 255, 0.141);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(13.4px);
+-webkit-backdrop-filter: blur(13.4px);
+border: 1px solid rgba(255, 255, 255, 0.92);
+
+}
+#searchbox{
+    box-sizing:border-box;
+    padding:4px;
+    width:250px;
+    height:42px;
+    border-radius:19px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-color:silver;
+    
+}
+#searchbox::placeholder{
+    color:rgb(0, 0, 0);
+    font-weight: 600;
+    font-family: "Oswald", sans-serif;
+    
+}
+#icon{
+    font-size: 20px;
+    color:black;
+    background-color:#ffff;
+    font-weight: 600;
+    border-radius:19px;
+     padding:5px;
+     width:45px;
+     border-color:goldenrod;
+     position:relative;
+     left:8px;
+     top:4px
+}
+.humid{
+    width:100px
+}
+#windimg{
+    width:120px
+}
+p{
+    color:#fff;
+    text-transform: capitalize;
+    font-size:larger;
+}
+.weather-icon{
+    width:150px
+}
+h1,h2{
+    color:#ffff
+}
